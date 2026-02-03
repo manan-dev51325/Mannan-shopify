@@ -224,7 +224,7 @@
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "test",
+        "custom_liquid": "{{ template.name }}",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
